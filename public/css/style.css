@@ -1,28 +1,103 @@
 html {
     position: relative;
     min-height: 100%;
-    background-color: #d6b476;
 }
 
 body {
     background-image: url("../img/Identity-Mindfulness-Psychology.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-
-}
-
-.card {
-    background-color: rgba(255, 255, 255, 0) !important;
+    padding-bottom: 88px;
+    min-height: 100%;
 }
 
 #header {
     background-color: #06410e;
     width: 100%;
+    height: 75px;
     max-width: 2500px;
+}
+
+h3 {
+    font-family: 'Courgette', cursive;
+    color: #dac87a;
+    margin-top: 20px;
+}
+
+.nav-item {
+    margin-top: 20px;
+
+}
+
+a {
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+#info {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 50px;
+    margin-bottom: 40px;
+    border: thin double #dac87a;
+    border-radius: 20px;
+}
+
+.leftside {
+    width: 540px;
+    height: 450px;
+    margin-right: 20px;
+}
+
+h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 33px;
+    text-align: center;
+    font-weight: 900;
+    color: #06410e;
+    padding-top: 15px;
+    text-shadow: #dac87a 1px 0 10px;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.card-group {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card {
+    background-color: rgba(9, 49, 5, 0.548) !important;
+    box-shadow: 5px 5px 5px #000000;
+}
+
+.card-title {
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    font-size: 21px;
+    color: #dac87a;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 16px;
+    color: #dac87a;
 }
 
 #footer {
     background-color: #06410e;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    max-width: 2500px;
+    height: 75px;
 }
 
 
