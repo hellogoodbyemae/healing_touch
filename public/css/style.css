@@ -1,0 +1,30 @@
+html {
+    position: relative;
+    min-height: 100%;
+    background-color: #d6b476;
+}
+
+body {
+    background-image: url("../img/Identity-Mindfulness-Psychology.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+#header {
+    background-color: #06410e;
+    width: 100%;
+    max-width: 2500px;
+}
+
+#footer {
+    background-color: #06410e;
+}
+
+
+
+

@@ -1,0 +1,25 @@
+{
+  "name": "healing_touch",
+  "version": "1.0.0",
+  "description": "Healing Touch Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellogoodbyemae/healing_touch.git"
+  },
+  "author": "Mae Flower",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hellogoodbyemae/healing_touch/issues"
+  },
+  "homepage": "https://github.com/hellogoodbyemae/healing_touch#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.4"
+  }
+}
