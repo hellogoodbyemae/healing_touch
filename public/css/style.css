@@ -47,6 +47,13 @@ a {
 .leftside {
     width: 540px;
     height: 450px;
+    margin-left: 70px;
+    margin-right: 100px;
+}
+
+.rightside {
+    width: 540px;
+    height: 450px;
     margin-right: 20px;
 }
 
@@ -81,7 +88,7 @@ p {
 .card-title {
     font-family: 'Courgette', cursive;
     text-align: center;
-    font-size: 21px;
+    font-size: 25px;
     color: #dac87a;
 }
 
@@ -89,6 +96,10 @@ p {
     text-align: center;
     font-size: 16px;
     color: #dac87a;
+}
+
+#panel {
+    margin-left: 20px;
 }
 
 #footer {
@@ -99,7 +110,7 @@ p {
     max-width: 2500px;
     height: 75px;
 }
-
-
-
-
+  
+.fa {
+    color: #dac87a;
+}
